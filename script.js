@@ -113,7 +113,7 @@ function calculate() {
   }
 
   if (result.toString().length > 15) {
-    displayText = result.toString().substring(0, 12) + "err";
+    displayText = result.toString().substring(0, 12);
   } else {
     displayText = result.toString();
   }
