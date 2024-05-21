@@ -32,7 +32,7 @@
     margin-top: -30px;
 }
 
-.display{
+#display{
     color: #3e362E;
     background-color: #93785B;
     text-align: right;
@@ -68,6 +68,10 @@
 
 .btn:hover {
     background-color: #a68b6f;
+}
+
+.btn:disabled{
+    background-color: #3e362E;
 }
 
 #equals{
